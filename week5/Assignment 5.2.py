@@ -16,11 +16,11 @@ while True:
         if num == 'done':
             break;
         n = int(num)
-        largest = num if largest<num or largest == None else largest
-        smallest = num if smallest>num or smallest == None else smallest
+        largest = n if largest<n or largest == None else largest
+        smallest = n if smallest>n or smallest == None else smallest
     except:
         print "Invalid input"
     #print num
 
-print "Maximum is", largest
-print "Minimum is", smallest
+print ("Maximum is", largest)
+print ("Minimum is", smallest)
